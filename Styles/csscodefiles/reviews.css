@@ -23,6 +23,8 @@ body {
   font-style: italic;
   color: white;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* entire reviews section */

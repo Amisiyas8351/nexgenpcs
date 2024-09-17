@@ -41,6 +41,11 @@ body {
   margin-top: 40px;
 }
 
+.helping_you, .dream_pc, .page_slogan {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* overview */
 
 .overview_section {

@@ -44,6 +44,11 @@ body {
 }
 
 .mission_statement_paragraph, .mission_statement_paragraph_2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mission_statement_paragraph, .mission_statement_paragraph_2 {
     color: white;
     font-family: Orbitron;
     font-style: italic;
