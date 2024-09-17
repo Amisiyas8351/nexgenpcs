@@ -415,6 +415,12 @@
     .important_links, .social_links {
         margin-right: 0px;
     }
+
+    .copyright_paragraph {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 425px) {
