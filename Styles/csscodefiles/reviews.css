@@ -1,0 +1,83 @@
+body {
+  background-image: linear-gradient(to bottom, rgb(155, 56, 155), rgb(32, 29, 104), rgb(21, 18, 72));
+  margin: 0;
+}
+
+.main_content {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+/* page intro */
+
+.page_intro_section {
+  margin-top: 90px;
+  width: 90%;
+}
+
+.page_intro, .page_intro_2 {
+  font-family: Orbitron;
+  font-size: 42px;
+  font-weight: 900;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+/* entire reviews section */
+
+.reviews_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 40px;
+  justify-items: center;
+  margin-top: 90px;
+  padding: 30px;
+  width: 90%;
+}
+
+/* individual review */
+
+.reviews_parent_container {
+  justify-items: left;
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px;
+  padding: 35px;
+}
+
+.name {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.review_date {
+  font-family: Poppins;
+}
+
+.review_title {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.review_description {
+  font-family: Poppins;
+}
+
+/* media queries */
+
+@media screen and (max-width: 850px) {
+  .reviews_section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .reviews_parent_container {
+    width: 70%;
+  }
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="Styles/csscodefiles/contact.css">
+  <link rel="stylesheet" href="Styles/csscodefiles/header_footer.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <title>Contact</title>
+</head>
+<body>
+  <header class = "header_parent_container">
+    <div class = "left_section_container">
+      <p class = "company_name_paragraph">
+        <a class = "company_name" href = "home.html" target = "_self">
+          NexGenPCs
+        </a>
+      </p>
+    </div>
+
+    <div class = "middle_section_container">
+      <div class = "home_page_link_container">
+        <a class = "home_page_link" href = "home.html" target = "_self">Home</a>
+      </div>
+      <div class = "services_page_link_container">
+        <a class = "services_page_link" href = "services.html" target = "_self">Services Offered</a>
+      </div>
+      <div class = "reviews_page_link_container">
+        <a class = "reviews_page_link" href = "reviews.html" target = "_self">Reviews</a>
+      </div>
+      <div class = "contact_page_link_container">
+        <a class = "contact_page_link" href = "contact.html" target = "_self">Contact</a>
+      </div>
+    </div>
+
+    <div class = "right_section_container">
+      <i class = "fas fa-user"></i>
+      <i class = "fa fa-shopping-cart"></i>
+      <i class = "fa fa-question-circle"></i>
+    </div>
+
+  <!--Hamburger Menu Section-->
+    <button class = "hamburger">
+      <div class = "bars"></div>
+    </button>
+  </header>
+
+  <nav class = mobile_nav>
+    <a target = "_self" href = "home.html">Home</a>
+    <a target = "_self" href = "services.html">Services</a>
+    <a target = "_self" href = "reviews.html">Reviews</a>
+    <a target = "_self" href = "contact.html">Contact</a>
+    <div class = "rs_container_for_hamburger">
+      <i class = "fas fa-user"></i>
+      <i class = "fa fa-shopping-cart"></i>
+      <i class = "fa fa-question-circle"></i>
+    </div>
+  </nav>
+
+  <script src = "/hamburger.js"></script>
+
+  <!--End of Hamburger Menu Section-->
+
+  <main class = "main_content">
+    <section class = "page_intro_section">
+      <div class = "page_intro_container">
+        <p class = "page_intro_paragraph">
+          Any questions? Send us an email down below
+        </p>
+      </div>
+    </section>
+
+
+    <section class = "contact_us_section">
+      <div class = "contact_us_parent_container">
+        <p class = "contact_us_paragraph">
+          Contact Us
+        </p>
+      </div>
+    </section>
+    
+    <section class = "send_email_section">
+      <div class = "send_email_container">
+        <div class = "full_name_container">
+          <p class = "full_name_title_paragraph">
+            Full Name*
+          </p>
+          <div class = "textbox_container">
+            <textarea type = "text" class = "textbox" placeholder = "Amisiyas Seyoum"></textarea>
+          </div>
+        </div>
+        <div class = "email_address_container">
+          <p class = "email_address_title_paragraph">
+            Email Address*
+          </p>
+          <div class = "textbox_container">
+            <textarea type = "text" class = "textbox" placeholder = "amiseyoum123@gmail.com"></textarea>
+          </div>
+        </div>
+        <div class = "message_container">
+          <p class = "message_title_paragraph">
+            Message*
+          </p>
+          <div class = "textbox_container">
+            <textarea type = "text" class = "bigger_textbox" placeholder = "Type your message here..."></textarea>
+          </div>
+        </div>
+        <div class = "send_button_container">
+          <button class = "send_button">
+            Send It
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class = "parent_footer_container">
+    <div class = "footer_grid">
+      <div class = "company_name_stuff">
+        <div class = "align_company_containers">
+          <div class = "company_container_1">
+            NexGenPCs
+          </div>
+        
+          <div class = "company_container_2">
+            <dl class = "company_info_list">
+              <dt class = "spacing">NexGenPCs Landing Page</dt>
+              <dt class = "spacing_2">123 Future Street</dt>
+              <dt class = "spacing_2">Unites States</dt>
+              <dt class = "spacing_2">US, USA 12345</dt>
+            </dl>
+          </div>
+        </div>
+      </div>
+  
+      <div class = "quick_links">
+        <div class = "quick_links_align">
+          <div class = "quick_links_container_1">
+            Quick Links
+          </div>
+        
+          <div class = "quick_links_container_2">
+            <dl class = "quick_links_list">
+              <dt class = "spacing">
+                <a class = "text_decoration" href = "home.html" target = "_self">
+                  Home
+                </a>
+              </dt>
+              <dt class = "spacing_2">
+                <a class = "text_decoration" href = "services.html" target = "_self">
+                  Services Offered
+                </a>
+              </dt>
+              <dt class = "spacing_2">
+                <a class = "text_decoration" href = "reviews.html" target = "_self">
+                  Reviews and Questions
+                </a>
+              </dt>
+              <dt class = "spacing_2">
+                <a class = "text_decoration" href = "contact.html" target = "_self">
+                  Contact
+                </a>
+              </dt>
+            </dl>
+          </div>
+        </div>
+      </div>
+  
+      <div class = "important_links">
+        <div class = "important_links_align">
+          <div class = "important_links_container_1">
+            Important Links
+          </div>
+        
+          <div class = "important_links_container_2">
+            <dl class = "important_links_list">
+              <dt class = "spacing_3">Terms and Conditions</dt>
+              <dt class = "spacing_4">Privacy</dt>
+              <dt class = "spacing_4">Legal</dt>
+              <dt class = "spacing_4">Disclaimer</dt>
+            </dl>
+          </div>
+        </div>
+      </div>
+  
+      <div class = "social_links">
+        <div class = "social_links_align">
+          <div class = "social_links_1">
+            Follow Us!
+          </div>
+        
+          <div class = "social_links_2">
+            <i class = "fab fa-facebook-f"></i>
+            <i class = "fab fa-instagram"></i>
+            <i class = "fab fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class = "copyright_container">
+      <div class = "copyright_inner_container">
+        <p class = "copyright_paragraph">
+          Copyright © 2024 NexGenPCs | Amisiyas Seyoum. All Rights Reserved.
+        </p>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
